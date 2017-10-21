@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Playfair');
+
+body {
+	background: 
+		radial-gradient(circle at 100% 50%, transparent 20%, rgba(255, 255, 255,.3) 21%, rgba(255, 255, 255, .3) 34%, transparent 35%, transparent),
+		radial-gradient(circle at 0% 50%, transparent 20%, rgba(255, 255, 255,.3) 21%, rgba(255, 255, 255, .3) 34%, transparent 35%, transparent) 0-50px;
+	background-color: lightblue;
+	background-size: 75px 100px;
+}
+
+h1, h2, h3, p, ul {
+	text-align: center;
+}
+
+ol {
+	text-align: justified;
+	margin: 0px auto;
+	max-width: 800px;
+}
+
+ul {
+	padding-left: 10px;
+}
+
+h1 {
+	font-family: 'Playfair', sans-serif;
+	font-size: 50px;
+	text-shadow: 2px 2px white;
+}
+
+h2 {
+	font-family: 'Playfair', sans-serif;
+	font-size: 30px;
+	text-shadow: 2px 2px white;
+}
+
+h3 {
+	font-family: 'Playfair', sans-serif;
+	font-size: 90px;
+	text-shadow: 2px 2px white;
+	margin-top: -40px;
+}
+
+p, ul, ol {
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+#hobbies li {
+	margin-bottom: 25px;
+}
+
+#photo img {
+	max-width: 15%;
+	height: auto;
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+}
+
+#doom {
+	width: 5%;
+	height: auto;
+	margin-bottom: -17px;
+}
+
+a:link {
+	color: rgb(200, 0, 0);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(200, 0, 0);
+	text-decoration: underline;
+}
+
+#index {
+	color: black;
+	text-decoration: none;
+}
+
+#last {
+	margin-bottom: 25px;
+}
